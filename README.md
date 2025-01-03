@@ -11,4 +11,4 @@ The chat interface powered by **Gemini** allows querying these documents.
 
 ## 🏗️ **Architecture**
 
-![workflow](https://github.com/supreetshm947/document_conv_agent/blob/main/workflow_n8n.png)
+![workflow](workflow_n8n.png)
