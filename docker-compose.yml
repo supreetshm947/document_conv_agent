@@ -1,0 +1,19 @@
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n
+    container_name: n8n
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    volumes:
+      - ./n8n_data:/home/node/.n8n
+    environment:
+      - N8N_HOST=localhost   # Change to your domain if using one
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http    # Use 'https' if you're using SSL
+      - NODE_ENV=production
+      - GENERIC_TIMEZONE=UTC # Change if necessary, e.g., 'America/New_York'
+
+volumes:
+  n8n_data:
+    driver: local
