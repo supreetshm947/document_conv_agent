@@ -5,7 +5,7 @@ This project uses **n8n** (workflow automation platform) and **Supabase** to bui
 
 The chat interface powered by **Gemini** allows querying these documents.
 
-![workflow](https://github.com/supreetshm947/document_conv_agent/blob/main/chat.png)
+![workflow](chat.png)
 
 ---
 
